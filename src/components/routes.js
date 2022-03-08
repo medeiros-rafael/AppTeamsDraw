@@ -1,8 +1,9 @@
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
 import React from 'react';
 import Home from './Home/index';
 import TeamsDraw from './Teams Draw/index';
 import AddTeams from './AddTeams/index';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const Stack = createNativeStackNavigator();
 
